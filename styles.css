@@ -1,12 +1,20 @@
-body {
-    font-family: "Roboto", sans-serif;
-    margin: auto;
+* {
+    margin: 0;
     padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: "Roboto", sans-serif;  
     display: flex;
     flex-direction: column;
     flex: 1;
-    max-width: 1200px;
     background-color: rgb(161, 224, 153);
+}
+
+.page {
+    max-width: 1300px;
+    margin: 0 auto;
 }
 
 .header,
@@ -48,7 +56,7 @@ a {
 
 .content {
     background-color: #1f2937;
-    padding: 0 200px;
+    padding: 50px 200px;
     display: flex;
     justify-content: sp;
     align-items: center;
@@ -94,3 +102,44 @@ p {
     height: 200px;
     flex-shrink: 0;
 }
+
+.random-info {
+    background-color: white;
+} 
+
+h2 {
+    font-size: 36px;
+    color: #1f2937;
+    font-weight: 900;
+    text-align: center;
+    padding: 42px;
+}
+
+.boxes-container {
+    display: flex;
+    justify-content: space-evenly;
+    padding: 0 200px 100px;
+}
+
+.box {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    color: #1f2937;
+    text-align: center;
+    font-weight: 500;
+    gap: 8px;
+    width: 150px;
+
+}
+
+.picture {
+    border: 3px solid #3882f6;
+    border-radius: 12px;
+    margin: 0 auto;
+    width: 150px;
+    height: 150px;
+    display: flex;
+    flex-shrink: 0;
+}
+
