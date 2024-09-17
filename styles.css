@@ -143,3 +143,20 @@ h2 {
     flex-shrink: 0;
 }
 
+.quote {
+    background-color: #e5e7eb;
+    padding: 120px 270px;
+}
+
+.quote .text {
+    font-size: 36px;
+    color:#1f2937;
+    font-style: italic;
+    font-weight: 50;
+}
+
+.quote .from {
+    font-size: 20px;
+    font-weight: 900;
+    text-align: right;
+}
