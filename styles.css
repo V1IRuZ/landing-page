@@ -74,14 +74,12 @@ a {
 }
 
 h1 {
-    margin: 0;
     font-size: 48px;
     font-weight: 900;
     color:#f9faf8;
 }
 
 p {
-    margin: 0;
     font-size: 18px;
     color:#e5e7eb;
 }
@@ -110,7 +108,6 @@ p {
     justify-content: center;
     width: 200px;
     height: 200px;
-    flex-shrink: 0;
 }
 
 .random-info {
@@ -192,12 +189,12 @@ h2 {
     justify-content: space-evenly;
     gap: 100px;
     background-color: #3882f6;
-    color:#f9faf8;
 }
 
 .above {
     font-size: 24px;
     font-weight: 900;
+    color:#f9faf8;
 }
 
 .below {
